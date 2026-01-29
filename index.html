@@ -1,82 +1,88 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="msapplication-tap-highlight" content="no" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    
-    <link rel="icon" href="/lovable-uploads/590e8079-d57a-4eac-95bb-da3f1d20ad23.png" type="image/png">
-    <title>Waktys - AI-Powered Cloud Solutions</title>
-    <meta name="description" content="Empowering businesses through AI-integrated cloud transformation and digital infrastructure services. Transform your business with intelligent cloud solutions." />
-    <meta name="author" content="Waktys" />
 
-    <meta property="og:title" content="Waktys - AI-Powered Cloud Solutions" />
-    <meta property="og:description" content="Transform your business with intelligent cloud infrastructure. Expert AI integration, cloud migration, and digital transformation services." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="/lovable-uploads/758e2810-9191-4c79-847c-3484b92bda8c.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="/lovable-uploads/758e2810-9191-4c79-847c-3484b92bda8c.png" />
-    <meta name="twitter:image" content="/lovable-uploads/758e2810-9191-4c79-847c-3484b92bda8c.png" />
-    
-    <style>
-      /* Critical CSS for initial load */
-      html, body {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
-        overflow-x: hidden;
-        background-color: #0a192f;
-      }
-      
-      #root {
-        width: 100%;
-        height: 100%;
-        overflow-x: hidden;
-      }
-      
-      /* Loading indicator */
-      .loading-fallback {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-        background-color: #0a192f;
-        color: #14b8a6;
-        font-family: system-ui, -apple-system, sans-serif;
-      }
-    </style>
-  </head>
+  <link rel="icon" href="/lovable-uploads/590e8079-d57a-4eac-95bb-da3f1d20ad23.png" type="image/png">
+  <title>Waktys - AI-Powered Cloud Solutions</title>
+  <meta name="description"
+    content="Empowering businesses through AI-integrated cloud transformation and digital infrastructure services. Transform your business with intelligent cloud solutions." />
+  <meta name="author" content="Waktys" />
 
-  <body>
-    <div id="root">
-      <div class="loading-fallback">
-        <div>Loading...</div>
-      </div>
+  <meta property="og:title" content="Waktys - AI-Powered Cloud Solutions" />
+  <meta property="og:description"
+    content="Transform your business with intelligent cloud infrastructure. Expert AI integration, cloud migration, and digital transformation services." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/lovable-uploads/758e2810-9191-4c79-847c-3484b92bda8c.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="/lovable-uploads/758e2810-9191-4c79-847c-3484b92bda8c.png" />
+  <meta name="twitter:image" content="/lovable-uploads/758e2810-9191-4c79-847c-3484b92bda8c.png" />
+
+  <style>
+    /* Critical CSS for initial load */
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+      background-color: #0a192f;
+    }
+
+    #root {
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+    }
+
+    /* Loading indicator */
+    .loading-fallback {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background-color: #0a192f;
+      color: #14b8a6;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root">
+    <div class="loading-fallback">
+      <div>Loading...</div>
     </div>
-    <script type="module" src="/src/main.tsx"></script>
-    
-    <script>
-      // Mobile debugging
-      window.addEventListener('error', function(e) {
-        console.error('Global error:', e.error);
-      });
-      
-      window.addEventListener('unhandledrejection', function(e) {
-        console.error('Unhandled promise rejection:', e.reason);
-      });
-      
-      // Log mobile info
-      console.log('User Agent:', navigator.userAgent);
-      console.log('Screen dimensions:', screen.width, 'x', screen.height);
-      console.log('Viewport dimensions:', window.innerWidth, 'x', window.innerHeight);
-    </script>
-  </body>
+  </div>
+  <script type="module" src="/src/main.tsx"></script>
+
+
+  <script>
+    // Mobile debugging
+    window.addEventListener('error', function (e) {
+      console.error('Global error:', e.error);
+    });
+
+    window.addEventListener('unhandledrejection', function (e) {
+      console.error('Unhandled promise rejection:', e.reason);
+    });
+
+    // Log mobile info
+    console.log('User Agent:', navigator.userAgent);
+    console.log('Screen dimensions:', screen.width, 'x', screen.height);
+    console.log('Viewport dimensions:', window.innerWidth, 'x', window.innerHeight);
+  </script>
+</body>
+
 </html>
