@@ -49,7 +49,7 @@ const AboutPage = () => {
               isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}>
               <h1 className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 md:mb-6">
-                About <span className="text-teal-400">Waktys</span>
+                About <span className="text-teal-400">WAKTYS</span>
               </h1>
               <p className="text-base md:text-lg lg:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed px-2 md:px-0">
                 We empower organizations to modernize faster, operate smarter, and scale securely—unlocking 
@@ -139,7 +139,7 @@ const AboutPage = () => {
                 <div className="space-y-4 text-gray-300">
                   <p>
                     Founded with a vision to bridge the gap between traditional IT infrastructure and 
-                    the AI-powered future, Waktys has emerged as a leader in intelligent cloud solutions.
+                    the AI-powered future, WAKTYS has emerged as a leader in intelligent cloud solutions.
                   </p>
                   <p>
                     Our team of experts combines deep technical knowledge with innovative thinking to 

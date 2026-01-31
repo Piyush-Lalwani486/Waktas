@@ -27,7 +27,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="text-2xl sm:text-3xl font-bold text-teal-400 mb-4">
-              wakt<span className="text-white">ys</span>
+              WAKT<span className="text-white">YS</span>
             </div>
             <p className="text-gray-300 text-sm sm:text-base mb-6 leading-relaxed">
               Empowering businesses through AI-integrated cloud transformation. 
@@ -100,12 +100,12 @@ const Footer = () => {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="flex flex-col sm:flex-row justify-between items-center text-center sm:text-left">
             <p className="text-gray-400 text-sm mb-4 sm:mb-0">
-              © {currentYear} Waktys. All rights reserved.
+              © {currentYear} WAKTYS. All rights reserved.
             </p>
             <div className="flex items-center text-gray-400 text-sm">
               <span>Made with</span>
               <Heart className="w-4 h-4 mx-1 text-teal-400" />
-              <span>by Waktys Team</span>
+              <span>by WAKTYS Team</span>
             </div>
           </div>
         </div>

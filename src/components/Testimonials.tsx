@@ -11,19 +11,19 @@ const Testimonials = () => {
     {
       id: 1,
       name: "Alice Rodriguez",
-      content: "I am amazed by the transformative impact Waktys has had on our operations. Their expertise in Cloud modernization is unmatched.",
+      content: "I am amazed by the transformative impact WAKTYS has had on our operations. Their expertise in Cloud modernization is unmatched.",
       initials: "AR"
     },
     {
       id: 2,
       name: "Mohammed Khan", 
-      content: "Working with Waktys was a game-changer for our company. Their AI solutions have boosted our productivity and efficiency.",
+      content: "Working with WAKTYS was a game-changer for our company. Their AI solutions have boosted our productivity and efficiency.",
       initials: "MK"
     },
     {
       id: 3,
       name: "Sophie Chen",
-      content: "Waktys's consulting services have truly optimized our infrastructure. We are now more agile and competitive in the market.",
+      content: "WAKTYS's consulting services have truly optimized our infrastructure. We are now more agile and competitive in the market.",
       initials: "SC"
     }
   ];
@@ -96,7 +96,7 @@ const Testimonials = () => {
           <p className={`text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto transform transition-all duration-1000 delay-200 ${
             isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
           }`}>
-            Hear what our clients have to say about their experience with Waktys
+            Hear what our clients have to say about their experience with WAKTYS
           </p>
         </div>
 
