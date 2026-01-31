@@ -45,22 +45,26 @@ const Header = () => {
     window.scrollTo(0, 0);
   };
 
-  return <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-[#0a192f]/95 backdrop-blur-md shadow-lg' : 'bg-transparent'}`}>
-    <div className="container mx-auto px-2 sm:px-4 py-1 sm:py-1 md:py-2">
+return <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-[#0a192f]/95 backdrop-blur-md shadow-lg' : 'bg-transparent'}`}>
+    {/* Minimal top padding, generous bottom padding */}
+    <div className="container mx-auto px-4 pt-0 pb-28 sm:pb-32 md:pb-36 lg:pb-40 xl:pb-44 2xl:pb-48">
       <div className="flex items-center justify-between">
-
-
         <div className="flex-1 flex justify-start">
-          <Link to="/" onClick={() => window.scrollTo(0, 0)} className="flex items-center gap-2 sm:gap-3 touch-manipulation">
+          <Link
+            to="/"
+            onClick={() => window.scrollTo(0, 0)}
+            className="flex items-center touch-manipulation -mt-2 sm:-mt-3"
+          >
             <img
               src={cloudiLogo}
               alt="Cloudi Logo"
-              className="h-12 sm:h-14 md:h-16 lg:h-20 xl:h-24 w-auto object-contain max-w-[160px] sm:max-w-[180px] md:max-w-[220px] lg:max-w-[260px]"
+              /* Further increased logo size for more prominence */
+              className="h-20 sm:h-24 md:h-28 lg:h-32 xl:h-36 2xl:h-40 w-auto object-contain max-w-[240px] sm:max-w-[300px] md:max-w-[360px] lg:max-w-[420px] xl:max-w-[480px]"
             />
           </Link>
         </div>
 
- 
+
         <nav className="hidden md:flex flex-[2] justify-center space-x-2 md:space-x-3 lg:space-x-6 xl:space-x-8 items-center">
           {navigationItems.map(item => <Link key={item.name} to={item.path} onClick={() => window.scrollTo(0, 0)} className={`transition-colors duration-300 relative group text-xs md:text-sm lg:text-base xl:text-base py-2 px-1 md:px-2 touch-manipulation ${location.pathname === item.path ? 'text-teal-400' : 'text-white hover:text-teal-400'}`}>
             {item.name}
